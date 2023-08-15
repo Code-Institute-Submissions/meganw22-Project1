@@ -1,16 +1,37 @@
 header {
     background-color: lightseagreen;
-    background-image: url(https://www.shutterstock.com/image-photo/outdoor-restaurant-beach-table-setting-260nw-1674285409.jpg);
+    background-image: url(https://www.shutterstock.com/image-photo/travel-empty-table-canedecorated-cafe-260nw-2012469686.jpg);
+    height: 30vh;
 }
 nav {
     background-color: lightcoral;
+
+    
+}
+.text-center {
+    text-align: center;
 }
 
+nav > a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    padding: 0.5em;
+    
+}
 footer {
     background-color: lightseagreen;
 }
-.imagine {
-    background-color: seagreen;
-    width: 3em;
+.imagine-box {
+    background-color: lightseagreen;
     height: 3em;
+    width: 20%;
+    border-radius: 8px;
+}
+.intro-text {
+    width: 80%;
+    border: 1px solid grey;
+    border-radius: 8px;
+    
+
 }
