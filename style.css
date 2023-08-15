@@ -1,0 +1,16 @@
+header {
+    background-color: lightseagreen;
+    background-image: url(https://www.shutterstock.com/image-photo/outdoor-restaurant-beach-table-setting-260nw-1674285409.jpg);
+}
+nav {
+    background-color: lightcoral;
+}
+
+footer {
+    background-color: lightseagreen;
+}
+.imagine {
+    background-color: seagreen;
+    width: 3em;
+    height: 3em;
+}
