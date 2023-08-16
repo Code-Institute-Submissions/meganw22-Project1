@@ -1,11 +1,35 @@
-header {
-    background-color: lightseagreen;
+.img-header {
+    
+    width: 100%;
+    height: 248px;
+    margin-bottom: 0px;
+    background-color: #82E3EA;
     background-image: url(https://www.shutterstock.com/image-photo/travel-empty-table-canedecorated-cafe-260nw-2012469686.jpg);
-    height: 30vh;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
 }
-nav {
+.head-text {
+    height: auto;
+    font-size: xx-large;
+    text-align: center;
+    position:relative;
+    width: 100%;
+    margin: 0px 0px;
+    border: 0px;
+    padding: 0px 0px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-bar {
     background-color: lightcoral;
-
+    height: 5vh;
+    display:inline-block;
+    width: 100%;
+    display:flex;
+    justify-content: center;
     
 }
 .text-center {
@@ -17,13 +41,16 @@ nav > a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
     padding: 0.5em;
+    color:aliceblue;
+
+    
     
 }
 footer {
-    background-color: lightseagreen;
+    background-color: #82E3EA;
 }
 .imagine-box {
-    background-color: lightseagreen;
+    background-color: #82E3EA;
     height: 3em;
     width: 20%;
     border-radius: 8px;
@@ -32,6 +59,7 @@ footer {
     width: 80%;
     border: 1px solid grey;
     border-radius: 8px;
+    
     
 
 }
