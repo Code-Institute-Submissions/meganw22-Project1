@@ -1,100 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-* { 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
-    background-color: rgb(208, 240, 240);
+
     font-family: 'Montserrat', Tahoma, Geneva, sans-serif;
-    flex:display;
+    flex: display;
     flex-direction: column;
     min-height: 100vh;
-    width:100%;
+    width: 100%;
     height: auto;
 }
 
 header {
+    background-color: rgb(208, 240, 240);
     color: white;
+    background-image: url(https://images.pexels.com/photos/4183075/pexels-photo-4183075.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 section {
-    flex: auto;
-
+    border-top: #04484d double 10px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 footer {
     background-color: #82E3EA;
-}
-
-.img-header {
-    background-image: url(https://images.pexels.com/photos/4183075/pexels-photo-4183075.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-size: cover; 
-    background-repeat: no-repeat;
+    padding: 0.5em;
     
-}
-.head-text {
-    font-size: 3em;
-    padding-top: 1em;
-    padding-left: 1em;
-    font: italic;
-}
-.head-subtext {
-    padding-left: 3em;
-    padding-bottom: 3em;
-    width: 80%;
-    font: italic;
 
 }
 
 .nav-bar {
     background-color: rgb(208, 240, 240);
     color: #04484d;
-    display:inline-block;
-    display:flex;
+    display: flex;
     justify-content: center;
-    
-}
-.text-center {
-    text-align: center;
 }
 
-nav > a {
+nav>a {
     text-decoration: none;
     text-transform: uppercase;
     padding: 0.5em;
-    color:#04484d;
+
 }
-.intro {
-    width: 90%;
-    
+
+.head-text {
+    font-size: 3em;
+    padding-top: 3rem;
+    padding-left: 3rem;
+
 }
+
+.head-subtext {
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+    width: 70%;
+    font-style: italic;
+    font-weight: 200;
+
+}
+
+
+.pic-this-box {
+    justify-content: center;
+    width: fit-content;
+    font-size: larger;
+    margin-left: 1rem;
+    margin-top: 1rem;
+
+}
+
 .intro-box {
-    width: 20% ;
-    background-color: #82E3EA;
-    margin-left:1em;
-    padding: 1em;
-    height: auto;
-    border-radius: 8px;
-}
-.intro-text {
-    width: 100%;
+
     border: 1px solid grey;
-    padding:5px;
-    margin-right: 1em;
+    padding: 5px;
+    margin: 0 2rem;
     border-radius: 8px;
-    background-color: whitesmoke ;
-    
+    background-color: #82E3EA;
+    justify-content: right;
 
-}
-.slogan {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-
-
-}
-
-#title {
-    background-color: ;
 }
