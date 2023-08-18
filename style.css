@@ -9,13 +9,13 @@
 body {
 
     font-family: 'Montserrat', Tahoma, Geneva, sans-serif;
-    flex: display;
-    flex-direction: column;
+    
     min-height: 100vh;
     width: 100%;
     height: auto;
 }
 
+/* Header Styles */
 header {
     background-color: rgb(208, 240, 240);
     color: white;
@@ -25,7 +25,8 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    
+    text-transform: uppercase;
+
 
 }
 
@@ -33,12 +34,35 @@ header a {
     text-decoration: none;
     color: white;
     letter-spacing: 3px;
-}    
+    list-style-type: none;
+    padding: 1em; 
+}
 
 header h1 {
     padding: 0 1rem;
 }
 
+
+.hover {
+    border-bottom: 1px solid rgb(208, 240, 240);
+}
+/* End of header Styles */
+
+#nav-bar {
+ position: absolute;
+ background-color: #0f2c2e; 
+ width: 100%;
+ justify-content: center;
+ padding: 0 1em;
+ display: none;
+ 
+}
+
+
+
+
+
+/* Start of Main Section Styles */
 section {
     border-top: #04484d double 10px;
     display: flex;
@@ -46,26 +70,6 @@ section {
     flex-direction: column;
     justify-content: space-between;
 }
-
-footer {
-    background-color: #82E3EA;
-    padding: 0.5em;
-
-}
-
-#nav-bar {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(208, 240, 240);
-    text-transform: uppercase;
-}
-
-nav>a {
-   color: #0f2c2e;
-   padding: 0.5em;
-   letter-spacing: 0;
-}
-
 
 .head-text {
     font-size: 3em;
@@ -104,6 +108,13 @@ nav>a {
     justify-content: right;
 
 }
-.hover {
-    border-bottom: 1px solid #0f2c2e;
+
+/* End of Main Section Styles */
+
+/* Start of Footer Styles */
+footer {
+    background-color: #82E3EA;
+    padding: 0.5em;
+
 }
+/* End of Footer Styles */
