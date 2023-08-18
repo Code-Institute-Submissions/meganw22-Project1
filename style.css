@@ -22,7 +22,21 @@ header {
     background-image: url(https://images.pexels.com/photos/4183075/pexels-photo-4183075.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-size: cover;
     background-repeat: no-repeat;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    
 
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+}    
+
+header h1 {
+    padding: 0 1rem;
 }
 
 section {
@@ -36,23 +50,22 @@ section {
 footer {
     background-color: #82E3EA;
     padding: 0.5em;
-    
 
 }
 
-.nav-bar {
-    background-color: rgb(208, 240, 240);
-    color: #04484d;
+#nav-bar {
     display: flex;
     justify-content: center;
+    background-color: rgb(208, 240, 240);
+    text-transform: uppercase;
 }
 
 nav>a {
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 0.5em;
-
+   color: #0f2c2e;
+   padding: 0.5em;
+   letter-spacing: 0;
 }
+
 
 .head-text {
     font-size: 3em;
@@ -63,9 +76,10 @@ nav>a {
 
 .head-subtext {
     padding-left: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
     width: 70%;
     font-style: italic;
+    font-size: 1em;
     font-weight: 200;
 
 }
@@ -89,4 +103,7 @@ nav>a {
     background-color: #82E3EA;
     justify-content: right;
 
+}
+.hover {
+    border-bottom: 1px solid #0f2c2e;
 }
