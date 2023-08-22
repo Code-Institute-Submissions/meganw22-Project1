@@ -26,14 +26,15 @@ header {
     width: 100%;
     text-transform: uppercase;
     display: flex;
-    justify-content: center;
-    align-items: baseline;
+   /* justify-content: center;
+    align-items: baseline; */
+    top: 0px;
 
 }
 
 header a {
     text-decoration: none;
-    color: white;
+    color: white; 
     letter-spacing: 3px;
     list-style-type: none;
     padding: 1em; 
@@ -57,6 +58,8 @@ header h1 {
  padding: 0 7em;
  text-align: center;
  display: none;
+ top:100%;
+ 
  
 }
 #nav-toggle:checked~nav {
@@ -75,13 +78,14 @@ header h1 {
 
 /* Start of Main Section Styles */
 section {
-    border-top: #04484d double 10px;
+    
+    margin-top: 71px;
     display: flex;
-    min-height: 100vh;
     flex-direction: column;
-    justify-content: space-between;
+    /*min-height: 100vh;
+    justify-content: space-between; */
 }
-
+/*
 .head-text {
     font-size: 3em;
     padding-top: 3rem;
@@ -97,7 +101,7 @@ section {
     font-size: 1em;
     font-weight: 200;
 
-}
+}*/
 
 
 .pic-this-box {
