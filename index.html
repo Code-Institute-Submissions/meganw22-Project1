@@ -4,8 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description" content="Ocean Café, Breakfast and Brunch Café, Hertford, England">
+    <meta
+      name="keywords" content="Ocean, Café, brunch, breakfast, lunch, food, drinks, menu, Hertford">
     <title>Ocean Café, Hertford</title>
+    
+    <!--Stylesheet-->
     <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body>
@@ -17,43 +24,36 @@
         
         <!--nav bar checkbox-->
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label">=</label>
+        <label for="nav-toggle" class="nav-toggle-label">X</label>
 
         <!--Navigation bar-->
-        <nav id="nav-bar">
-            <a href="index.html">
-                <li class="hover">Home</li>
-            </a>
-            <a href="menu.html">
-                <li>Menu</li>
-            </a>
-            <a href="booking.html">
-                <li>Book now</li>
-            </a>
-            <a href="reviews.html">
-                <li>Reviews</li>
-            </a>
+        <nav>
+            <ul id="nav-bar">
+                <li ><a href="index.html" class="selected">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="booking.html">Book now</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+            </ul>          
         </nav>
     </header>
 
     <!--Main body of text-->
+<main>
     <section>
-        <h1 class="head-text">Ocean Café</h1>
+        <h2 class="head-text">Ocean Café</h2>
         <h5 class="head-subtext">Bringing holiday breakfast vibes to the UK!</h5>
-
+        <br>
         <div>
             <h5 class="pic-this-box">
                 Picture this:
             </h5>
         </div>
+        
         <div class="intro-box">
-            <p>It's a perfect temperature, the sun is shining and there's a calming sea breeze.
-                You are sat on a terrace next to the ocean eating fresh fruit and sipping an iced coffee.
-                The bubble bursts and you are back in the UK but you are in Ocean Café, Hertford. You are not mad
-                because now you get to order the best fresh brunch and a mimosa. It's just like the real deal.
-                Also there's no chance of sand in your shoes.
+            <p>Intro
             </p>
         </div>
+        <br>
         <div>
             <h2>Meet Us</h2>
             <p>
@@ -67,6 +67,7 @@
             </p>
 
         </div>
+        <br>
         <div>
             <h2>Opening Times</h2>
             <table>
@@ -80,19 +81,50 @@
                 </tr>
             </table>
         </div>
+        <br>
         <div>
             <h2>Gallery</h2>
         </div>
     </section>
+</main>
     <!--Footer-->
     <footer>
         <div>
-            <h4>Contact Details</h4>
-            <p>
-                OceanCaféHertford@email.co.uk
-            </p>
+            <h4><i class="fa-solid fa-phone"></i>  Contact Details</h4>
+            <p><i class="fa-regular fa-envelope"></i>  OceanCaféHertford@email.co.uk</p>
         </div>
+        <br>
+        <ul id="social-networks">
+            <li>
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                aria-label="Visit our facebook page, opens in a new tab">
+                <i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Instagram page, opens in a new tab">
+                <i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                aria-label="Visit our YouTube page, opens in a new tab">
+                <i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Twitter page, opens in a new tab">
+                <i class="fa-brands fa-x-twitter"></i></a>
+            </li>
+          </ul>  
+       
     </footer>
+
+    <!--Javascript kit-->
+    <script
+      src="https://kit.fontawesome.com/953780aa69.js"
+      crossorigin="anonymous"
+    ></script>
 </body>
 
 </html>
