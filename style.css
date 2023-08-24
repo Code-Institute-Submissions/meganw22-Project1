@@ -93,12 +93,14 @@ nav {
 
 /* Start of Main Section Styles */
 main {
-    flex: 1 0 auto;
-    margin-top: 90px;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    justify-content: space-between;
+   /* flex: 1 0 auto; 
+   justify-content: space-between;
+   display: flex;
+   flex-direction: column;
+   */
+    margin-top: 90px; 
+    min-height: 50vh;
+    
 }
 /*
 .head-text {
