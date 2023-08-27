@@ -24,14 +24,13 @@ header {
     background-color: rgb(143, 209, 209);
     background-color: #4e8f94;
     color: white;
-   /*  */
     position: fixed;
     z-index: 99;
     width: 100%;
     text-transform: uppercase;
     display: flex;
     top: 0px;
-    justify-content: space-between;   
+    justify-content: space-between; 
     padding: 10px;
     align-items: center;
 }
@@ -44,14 +43,15 @@ header a {
 }
 
 header h1 {
-    font-size: 2.5em;
+    font-size: 2.2em;
 }
 
 nav {
     font-size: 110%;
-    background-color: whitesmoke;
+    background-color: #0d5e64;
     box-shadow: 0 2px 20px #0f2c2e;
     position: absolute;
+    text-align: right;
     top: 100%;
     width: 100%;
     left: 0;
@@ -88,7 +88,7 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;   
+    font-size: 1.5rem;   
     
 }
 
@@ -111,20 +111,24 @@ main {
     background-image: url(../assets/css/gallery/blah-brunch.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 500px;
+    position: relative;
     
 
 }
-/*
-.head-subtext {
-    padding-left: 3rem;
-    padding-bottom: 2rem;
-    width: 70%;
-    font-style: italic;
-    font-size: 1em;
-    font-weight: 200;
 
-}*/
+.head-subtext {
+    position: absolute;
+    bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.836);
+    padding: 1rem;
+    font-size: 20px;
+    width: 90%;
+    justify-content: center;
+    font-style: italic;
+    text-transform: capitalize;
+
+}
 
 
 /*.pic-this-box {
@@ -147,30 +151,54 @@ main {
 
 } */
 
-#food-menu {
+#menu-img {
+    background-image: url(/assets/css/gallery/food3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    position: relative;
+}
+
+#menu-img h3 {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px 15px;
+    top: 10px; 
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+}
+
+#menu-header {
+    background-color: #0f2c2e;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1em;
+    padding: 10px 20px;
+}
+
+#food-menu, #drinks-menu {
     padding: 5%;
-    border-radius: 7px;
-    margin: 4%;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 #food-menu > h2, #drinks-menu > h2 {
     text-align: center;
-     ;
 }
 
-.food-menu-items {
+ .menu-items {
     font-size: smaller;
-
 }
 
-.food-menu-items h3 {
+.menu-items h3 {
     text-decoration-line: underline;
+
 }
 
 .menu-small-text {
-    background-color: grey;
     padding: 2% 5%;
 }
+
 
 /* Gallery */
 .photos > img{
@@ -203,3 +231,43 @@ footer {
     color: whitesmoke;
 }
 /* End of Footer Styles */
+
+/* media query: for tablets and larger (768px and up) */
+@media screen and (min-width:768px) {
+     
+    /* header */
+    nav {
+        display: block;
+        background-color: inherit;
+        position: relative;
+        box-shadow: none;
+       /* width: fit-content;*/
+        padding: 0;
+        
+    }
+
+    #nav-bar {
+        display: flex;
+        font-size: 1em;
+        justify-content: flex-end;
+    }
+
+    #nav-bar li {
+        padding: 0 15px;
+    }
+
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    /* Gallery */ 
+    #photos {
+        column-count: 3;
+        border: 1px white solid;
+    }
+}
+
+@media screen and (min-width:1024px){
+    
+}
