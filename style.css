@@ -172,6 +172,12 @@ main {
     padding: 2% 5%;
 }
 
+/* Gallery */
+.photos > img{
+    width: 100%;
+    height: auto;
+}
+
 /* End of Main Section Styles */
 
 /* Start of Footer Styles */
@@ -179,15 +185,21 @@ footer {
     font-size: 15px;
     background-color: #4e8f94;
     padding: 0.5em;
+    color: whitesmoke;
     
 }
 
 #social-networks {
     text-align: center;
-    padding: 20px 0;
+    padding: 10px;
     display: flex;
     text-decoration: none;
     justify-content: space-around;
     list-style-type: none;
+    
+}
+
+#social-networks a {
+    color: whitesmoke;
 }
 /* End of Footer Styles */
