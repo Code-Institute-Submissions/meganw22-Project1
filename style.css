@@ -21,11 +21,10 @@ h1, h2, h3 {
 
 /* Header Styles */
 header {
-    background-color: rgb(208, 240, 240);
+    background-color: rgb(143, 209, 209);
+    background-color: #4e8f94;
     color: white;
-    background-image: url(https://images.pexels.com/photos/4183075/pexels-photo-4183075.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-size: cover;
-    background-repeat: no-repeat;
+   /*  */
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -34,6 +33,7 @@ header {
     top: 0px;
     justify-content: space-between;   
     padding: 10px;
+    align-items: center;
 }
 
 header a {
@@ -49,7 +49,8 @@ header h1 {
 
 nav {
     font-size: 110%;
-    background-color: #0f2c2e;
+    background-color: whitesmoke;
+    box-shadow: 0 2px 20px #0f2c2e;
     position: absolute;
     top: 100%;
     width: 100%;
@@ -83,33 +84,38 @@ nav {
 
 #nav-toggle {
     display: none;
+    
 }
 
 .nav-toggle-label {
-    font-size: 1rem;
+    font-size: 2rem;   
+    
 }
 
 /* End of header Styles */
 
 /* Start of Main Section Styles */
 main {
-   /* flex: 1 0 auto; 
+   flex: 1 0 auto; 
    justify-content: space-between;
    display: flex;
    flex-direction: column;
-   */
-    margin-top: 90px; 
+   
+    margin-top: 68.5px; 
     min-height: 50vh;
+    background-color: whitesmoke;
     
 }
-/*
-.head-text {
-    font-size: 3em;
-    padding-top: 3rem;
-    padding-left: 3rem;
+
+#bgimg {
+    background-image: url(../assets/css/gallery/blah-brunch.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    
 
 }
-
+/*
 .head-subtext {
     padding-left: 3rem;
     padding-bottom: 2rem;
@@ -141,20 +147,47 @@ main {
 
 } */
 
+#food-menu {
+    padding: 5%;
+    border-radius: 7px;
+    margin: 4%;
+}
+
+#food-menu > h2, #drinks-menu > h2 {
+    text-align: center;
+     ;
+}
+
+.food-menu-items {
+    font-size: smaller;
+
+}
+
+.food-menu-items h3 {
+    text-decoration-line: underline;
+}
+
+.menu-small-text {
+    background-color: grey;
+    padding: 2% 5%;
+}
+
 /* End of Main Section Styles */
 
 /* Start of Footer Styles */
 footer {
     font-size: 15px;
-    background-color: #82E3EA;
+    background-color: #4e8f94;
     padding: 0.5em;
     
 }
 
 #social-networks {
+    text-align: center;
+    padding: 20px 0;
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
+    text-decoration: none;
+    justify-content: space-around;
     list-style-type: none;
 }
 /* End of Footer Styles */
