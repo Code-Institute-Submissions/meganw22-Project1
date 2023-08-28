@@ -102,60 +102,62 @@ main {
    justify-content: space-between;
    display: flex;
    flex-direction: column;
-   
     margin-top: 68.5px; 
     min-height: 50vh;
     background-color: whitesmoke;
     
 }
 
-#bgimg {
-    background-image: url(../assets/css/gallery/blah-brunch.jpg) alt="image of cafe interior";
+/*#bgimg {
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 500px;
-    position: relative;
-    
-
 }
+    
+    */
 
-.head-subtext {
-    position: absolute;
-    bottom: 30px;
-    background-color: rgba(255, 255, 255, 0.836);
-    padding: 1rem;
-    font-size: 1.25em;
-    width: fit-content;
-    justify-content: center;
-    font-style: italic;
-    text-transform: capitalize;
+.main-header {
+    position:relative;
 
 }
 
 .main-header img {
-    display: flex;
-    align-items:center;
-    justify-content:center;
-   /* background-size: cover;*/
-    width: 100%;
-    z-index: 1;
+    background-size: cover/center;
+    background-repeat: no-repeat;
     height: auto;
-    position: relative;
+    max-width: 100%;
+    width: 100%;
     overflow: hidden;
+    display: block;
+
+    /*display: flex;
+    align-items:center;
+    justify-content:center; */
+}
+
+.main-header h5 {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.836);
+    padding: 5px;
+    width: fit-content;
+    justify-content: center;
+    font-style: italic;
+    letter-spacing: 3px;
+    bottom: 20%;
+    right: 20%;
 }
 
 .main-header h3 {
-   position: absolute;
+    position: absolute;
     background-color: rgba(255, 255, 255, 0.5);
-    padding: 5px 15px;
-    top: 5em; 
+    padding: 5px; 
     text-align: center;
     font-size: 1em;
     font-style: italic;
     z-index: 50;
+    letter-spacing: 4px;
+    bottom: 75%;
 }
 
-#hear-from-you {
+/*#hear-from-you {
     background-color:  rgba(255, 255, 255, 0.2);
     color: whitesmoke;
     width: 100%;
@@ -167,7 +169,7 @@ main {
     letter-spacing: 4px;
    
     
-}
+} */
 
 #menu-header {
     background-color: #0f2c2e;
@@ -267,9 +269,15 @@ footer {
         column-count: 3;
         
     }
+    .main-header h5{
+        
+        padding: 1rem;
+        font-size: 1em;
+
+    }
     .main-header h3 {
-        top: 4em;
         font-size: 2em;
+        bottom: 50%;
     }
 
     #hear-from-you {
