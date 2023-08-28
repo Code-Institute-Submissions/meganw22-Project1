@@ -33,6 +33,7 @@ header {
     justify-content: space-between; 
     padding: 10px;
     align-items: center;
+    z-index: 98;
 }
 
 header a {
@@ -109,7 +110,7 @@ main {
 }
 
 #bgimg {
-    background-image: url(../assets/css/gallery/blah-brunch.jpg);
+    background-image: url(../assets/css/gallery/blah-brunch.jpg) alt="image of cafe interior";
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
@@ -178,7 +179,6 @@ main {
 
 #food-menu, #drinks-menu {
     padding: 5%;
-    z-index: 99;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -211,9 +211,9 @@ main {
 
 /* Start of Footer Styles */
 footer {
-    font-size: 15px;
+    font-size: 1.5em;
     background-color: #4e8f94;
-    padding: 0.5em;
+    padding: 0 0.5em;
     color: whitesmoke;
     
 }
