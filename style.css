@@ -55,6 +55,7 @@ nav {
     top: 100%;
     width: 100%;
     left: 0;
+    z-index: 99;
     padding: 1em;
     display: none;
 
@@ -122,15 +123,15 @@ main {
     bottom: 30px;
     background-color: rgba(255, 255, 255, 0.836);
     padding: 1rem;
-    font-size: 20px;
-    width: 90%;
+    font-size: 1.25em;
+    width: fit-content;
     justify-content: center;
     font-style: italic;
     text-transform: capitalize;
 
 }
 
-#menu-img img {
+.main-header img {
     display: flex;
     align-items:center;
     justify-content:center;
@@ -142,7 +143,7 @@ main {
     overflow: hidden;
 }
 
-#menu-img h3 {
+.main-header h3 {
    position: absolute;
     background-color: rgba(255, 255, 255, 0.5);
     padding: 5px 15px;
@@ -150,7 +151,21 @@ main {
     text-align: center;
     font-size: 1em;
     font-style: italic;
-    z-index: 99;
+    z-index: 50;
+}
+
+#hear-from-you {
+    background-color:  rgba(255, 255, 255, 0.2);
+    color: whitesmoke;
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 25px;
+    font-style: italic;
+    z-index: 50;
+    letter-spacing: 4px;
+   
+    
 }
 
 #menu-header {
@@ -183,6 +198,7 @@ main {
 .menu-small-text {
     padding: 2% 5%;
 }
+
 
 
 /* Gallery */
@@ -251,10 +267,16 @@ footer {
         column-count: 3;
         
     }
-    #menu-img h3 {
+    .main-header h3 {
         top: 4em;
         font-size: 2em;
     }
+
+    #hear-from-you {
+        margin-top: 110px;
+        padding: 20px;
+        font-size: 35px;
+        
 }
 
 @media screen and (min-width:1024px){
@@ -264,14 +286,22 @@ footer {
         column-count: 4;
         
     }
-    #menu-img {
+
+    .head-subtext {
+        font-size: 2em;
+    }
+
+    .main-header {
         height: 400px;
         display: flex;
         align-items:center;
         justify-content:center;
         overflow: hidden;
     }
-    #menu-img h3 {
+    .main-header h3 {
         font-size: 2.5em;
     }
+    #hear-from-you {
+        margin-top: 80px;
+        
 }
