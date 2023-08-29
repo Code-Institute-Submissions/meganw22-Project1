@@ -11,6 +11,7 @@ body {
     min-height: 100vh;
     width: 100%;
     height: auto;
+    
 }
 
 h1, h2, h3 {
@@ -93,7 +94,6 @@ nav {
     font-size: 1.5rem;   
     
 }
-
 /* End of header Styles */
 
 /* Start of Main Section Styles */
@@ -105,18 +105,12 @@ main {
     margin-top: 68.5px; 
     min-height: 50vh;
     background-color: whitesmoke;
-    
-}
 
-/*#bgimg {
-    background-size: cover;
 }
-    
-    */
 
 .main-header {
     position:relative;
-
+    color: #505050;
 }
 
 .main-header img {
@@ -127,10 +121,6 @@ main {
     width: 100%;
     overflow: hidden;
     display: block;
-
-    /*display: flex;
-    align-items:center;
-    justify-content:center; */
 }
 
 .main-header h5 {
@@ -146,6 +136,7 @@ main {
 }
 
 .main-header h3 {
+    width: 100%;
     position: absolute;
     background-color: rgba(255, 255, 255, 0.5);
     padding: 5px; 
@@ -153,8 +144,29 @@ main {
     font-size: 1em;
     font-style: italic;
     z-index: 50;
-    letter-spacing: 4px;
-    bottom: 75%;
+    bottom: 50%;
+}
+
+#meet-us {
+    padding: 30px 10%;
+    background-color: #ece1d0;
+}
+
+#meet-us h2 {
+    text-decoration-line: underline;
+    color: #505050;
+}
+
+#meet-us p {
+    margin-top: 10px;
+    color: #505050;
+}
+
+#portrait-us img {
+    width: 100%;
+    height: auto;
+    padding: 20px 10%;
+    background-color: #ece1d0;
 }
 
 #hear-from-you {
@@ -165,11 +177,9 @@ main {
     padding: 20px;
     font-size: 25px;
     bottom:25%;
-   
-    
 } 
 
-#menu-header {
+#menu-head-text {
     background-color: #0f2c2e;
     color: whitesmoke;
     text-align: center;
@@ -199,8 +209,6 @@ main {
     padding: 2% 5%;
 }
 
-
-
 /* Gallery */
 .photos > img{
     width: 100%;
@@ -213,8 +221,6 @@ main {
     padding: 10px 10%;
     color: whitesmoke;
     font-size: 17px;
-    
-
 }
 
 #get-intouch h3 {
@@ -339,6 +345,10 @@ input[type="radio"]:checked + label {
   input[type="submit"]:hover {
     background-color: #adadad;
   }
+
+  .image-wrapper {
+    display: none;
+  }
 /* End of Main Section Styles */
 
 /* Start of Footer Styles */
@@ -399,23 +409,52 @@ footer {
         column-count: 3;
         
     }
-    .main-header h5{
-        
+
+    #home-page-text {
+        left:0;
         padding: 1rem;
-        font-size: 1em;
+        font-size: 18px;
+    }
+
+    #menu-head-text {
+        padding: 1rem;
+        font-size: 25px;
 
     }
     .main-header h3 {
         font-size: 2em;
-        bottom: 50%;
     }
 
     #hear-from-you {
         margin-top: 110px;
         padding: 20px;
         font-size: 35px;
-        
-}
+    }
+    #meet-us {
+
+    }
+    .small-container {
+        display: flex;
+        flex-direction: row;  
+        justify-content: space-around;
+        background-color: #ece1d0;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 18px ;
+    }
+
+    .small-wrapper {
+        width:60%;
+    }
+
+    .small-image-wrapper {
+        width: 40%;
+        max-width: 250px;
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+    }
+
 
 @media screen and (min-width:1024px){
 
