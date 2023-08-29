@@ -4,15 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta
-      name="description" content="Ocean Café, Breakfast and Brunch Café, Hertford, England">
-    <meta
-      name="keywords" content="Ocean, Café, brunch, breakfast, lunch, food, drinks, menu, Hertford">
+    <meta name="description" content="Ocean Café, Breakfast and Brunch Café, Hertford, England">
+    <meta name="keywords" content="Ocean, Café, brunch, breakfast, lunch, food, drinks, menu, Hertford">
     <title>Ocean Café, Hertford</title>
-    
+
     <!--Stylesheet-->
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
 
 <body>
@@ -21,7 +19,7 @@
         <a href="index.html">
             <h1>Ocean Café</h1>
         </a>
-        
+
         <!--nav bar checkbox-->
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
@@ -29,131 +27,143 @@
         <!--Navigation bar-->
         <nav>
             <ul id="nav-bar">
-                <li ><a href="index.html" >Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="menu.html" class="selected">Menu</a></li>
                 <li><a href="contact-us.html">Contact Us</a></li>
-            </ul>          
+            </ul>
         </nav>
     </header>
 
 
     <!--Main body of text-->
-<main>
-    <div class="main-header">
-        <img src="../assets/css/gallery/food3.png" alt="top view of a cup of tea and pancakes decorated with fruit">
-        <h3>Our food is freshly prepared <br> & made to order!</h3>
-    </div>
-    <div id="menu-head-text">
-        <h5>Avaliable Wednesday to Sunday <br> from 8.30am until 4.30pm</h5>
-    </div>
-    <section id="food-menu">
-        <h2>Food Menu</h2>
-        <br>
-        <div class="menu-items">
-            <h3>Classic English Pancakes</h3>
-            <p class="menu-small-text">Thin cooked pancakes with a choice of white or milk chocolate sauce, strawberries, lemon, sugar, banana or a savoury ham and cheese option</p>
-            <br>
-            <h3>Spirulina Granola Bowl</h3>
-            <p class="menu-small-text">Coconut milk, cinnamon, spirulina, granola, peanut butter, seasonal fruits, goji berries and oats</p>
-            <br>
-            <h3>Cheesy Waffle Sandwich</h3>
-            <p class="menu-small-text">Cheddar, mozzerella, avocado, crispy bacon and sliced tomatoes</p>
-            <br>
-            <h3>Eggs Benedict</h3>
-            <p class="menu-small-text">Poached eggs on sourdough bread with hollandaise sauce. Choose between, a smoked salmon or ham base</p>
-            <br>
-            <h3>Breakfast Burrito</h3>
-            <p class="menu-small-text">Chorizo, avocado, egg, harissa beans, cheese, sour cream, pico de gallo, jalapeños and hot sauce</p>
-            <br>
-            <h3>The Whole Kit and Kaboodle</h3>
-            <p class="menu-small-text">Sausages, bacon, baked beans, crispy hash browns, grilled tomatoes, garlic mushrooms and eggs of your choice!</p>
-            <br>
-            <h3>Selection of fresh pastries</h3>
-            <p class="menu-small-text">Please ask your server for todays selection of pastries!</p>
-            <br>
+    <main>
+        <div class="main-header">
+            <img src="../assets/css/gallery/food3.png" alt="top view of a cup of tea and pancakes decorated with fruit">
+            <h3>Our food is freshly prepared <br> & made to order!</h3>
         </div>
-            
+        <div id="menu-head-text">
+            <h5>Avaliable Wednesday to Sunday <br> from 8.30am until 4.30pm</h5>
+        </div>
+        <div id="menu-container">
+            <div id="menu-wrapper">
+                <div id="food-menu">
+                    <h2>Food Menu</h2>
+                    <br>
+                    <div class="menu-items">
+                        <h3>Classic English Pancakes</h3>
+                        <p class="menu-small-text">Thin cooked pancakes with a choice of white or milk chocolate sauce,
+                            strawberries, lemon, sugar, banana or a savoury ham and cheese option</p>
+                        <br>
+                        <h3>Spirulina Granola Bowl</h3>
+                        <p class="menu-small-text">Coconut milk, cinnamon, spirulina, granola, peanut butter, seasonal
+                            fruits, goji berries and oats</p>
+                        <br>
+                        <h3>Cheesy Waffle Sandwich</h3>
+                        <p class="menu-small-text">Cheddar, mozzerella, avocado, crispy bacon and sliced tomatoes</p>
+                        <br>
+                        <h3>Eggs Benedict</h3>
+                        <p class="menu-small-text">Poached eggs on sourdough bread with hollandaise sauce. Choose
+                            between, a smoked salmon or ham base</p>
+                        <br>
+                        <h3>Breakfast Burrito</h3>
+                        <p class="menu-small-text">Chorizo, avocado, egg, harissa beans, cheese, sour cream, pico de
+                            gallo, jalapeños and hot sauce</p>
+                        <br>
+                        <h3>The Whole Kit and Kaboodle</h3>
+                        <p class="menu-small-text">Sausages, bacon, baked beans, crispy hash browns, grilled tomatoes,
+                            garlic mushrooms and eggs of your choice!</p>
+                        <br>
+                        <h3>Selection of fresh pastries</h3>
+                        <p class="menu-small-text">Please ask your server for todays selection of pastries!</p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div id="menu-img-wrapper">
+                <img src="/assets/css/gallery/pastries.jpg" alt="fresh baked almond crossiants">
+            </div>
+        </div>
+        
 
-    </section>
-    <div class="photos">
-        <img src="../assets/css/gallery/coffee3.jpg" alt="latte art in coffee cup">
-    </div>
-    <section id="drinks-menu">
-        <h2>Drinks Menu</h2>
-        <br>
-        <div class="menu-items menu-small-text">
-            <h3>Smoothies</h3>
+      <!--  <div class="photos">
+            <img src="../assets/css/gallery/coffee3.jpg" alt="latte art in coffee cup">
+        </div>
+ -->
+ <div id="menu-container">
+    
+        <div class="menu-img-wrapper">
+                <img src="../assets/css/gallery/drinks1.png" alt="image of raspberry cocktail">
+        </div>
+        <div id="menu-wrapper drinks-menu">
+            <h2>Drinks Menu</h2>
+            <br>
+            <div class="menu-items menu-small-text">
+                <h3>Smoothies</h3>
                 <li>Protein banana and berries</li>
                 <li>Spirulina, mango, avocado, banana and pinapple</li>
                 <li>Orange, lemon, ginger, turmeric and mango</li>
                 <br>
-            <h3>Coffee</h3>
+                <h3>Coffee</h3>
                 <li>Flat White</li>
                 <li>Cappuchino</li>
                 <li>Latte</li>
                 <li>Americano</li>
                 <li>Espresso</li>
                 <br>
-            <h3>Tea</h3>
+                <h3>Tea</h3>
                 <li>Breakfast Tea</li>
                 <li>Mint Tea</li>
                 <li>Earl Grey</li>
                 <li>Fruit Tea</li>
                 <br>
-            <h3>Soft Drinks</h3>
+                <h3>Soft Drinks</h3>
                 <li>Coca-Cola</li>
                 <li>Lemonade</li>
                 <li>Still Water</li>
                 <li>Sparkling Water</li>
                 <li>Orange Juice</li>
                 <br>
-            <h3>Bubbles</h3>
+                <h3>Bubbles</h3>
                 <li>Prosecco</li>
                 <li>Mimosa</li>
                 <li>Raspberry cocktail</li>
                 <br>
 
-        </div>
+            </div>
 
-        <div class="photos"> 
-            <img src="../assets/css/gallery/drinks1.png" alt="image of raspberry cocktail">
+            
         </div>
-    </section>
-</main>
+    </main>
     <!--Footer-->
     <footer>
-        
+
         <ul id="social-networks">
             <li>
-              <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                aria-label="Visit our facebook page, opens in a new tab">
-                <i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our facebook page, opens in a new tab">
+                    <i class="fa-brands fa-facebook"></i></a>
             </li>
             <li>
-              <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                aria-label="Visit our Instagram page, opens in a new tab">
-                <i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page, opens in a new tab">
+                    <i class="fa-brands fa-instagram"></i></a>
             </li>
             <li>
-              <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                aria-label="Visit our YouTube page, opens in a new tab">
-                <i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page, opens in a new tab">
+                    <i class="fa-brands fa-youtube"></i></a>
             </li>
             <li>
-              <a
-                href="https://twitter.com/" target="_blank" rel="noopener"
-                aria-label="Visit our Twitter page, opens in a new tab">
-                <i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page, opens in a new tab">
+                    <i class="fa-brands fa-x-twitter"></i></a>
             </li>
-          </ul>  
-       
+        </ul>
+
     </footer>
 
     <!--Javascript kit-->
-    <script
-      src="https://kit.fontawesome.com/953780aa69.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/953780aa69.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

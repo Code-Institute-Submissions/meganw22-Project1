@@ -171,6 +171,8 @@ main {
     padding: 1em 0;
 }
 
+/* Opening Times section */
+
 .table-container {
     display: flex;
     justify-content: center;
@@ -204,17 +206,13 @@ td {
     border-bottom: 1px solid #505050;
 }
 
-
-#hear-from-you {
-    background-color:  rgba(255, 255, 255, 0.2);
-    color: whitesmoke;
+/* Gallery */
+.photos > img{
     width: 100%;
-    margin-top: 10px;
-    padding: 20px;
-    font-size: 25px;
-    bottom:25%;
-} 
+    height: auto;
+}
 
+/* Food and drinks Menu Section*/
 #menu-head-text {
     background-color: #0f2c2e;
     color: whitesmoke;
@@ -222,6 +220,17 @@ td {
     font-size: 1em;
     padding: 10px 20px;
 }
+
+#menu-container {
+    
+
+}
+
+#menu-wrapper {
+    width: 60%;
+    
+}
+
 
 #food-menu, #drinks-menu {
     padding: 5%;
@@ -232,25 +241,29 @@ td {
     text-align: center;
 }
 
- .menu-items {
+.menu-items {
     font-size: smaller;
 }
 
 .menu-items h3 {
     text-decoration-line: underline;
-
 }
 
 .menu-small-text {
     padding: 2% 5%;
 }
 
-/* Gallery */
-.photos > img{
-    width: 100%;
-    height: auto;
-}
+/*Contact Us Section*/
 
+#hear-from-you {
+    background-color:  rgba(255, 255, 255, 0.2);
+    color: whitesmoke;
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 25px;
+    bottom:25%;
+} 
 #get-intouch {
     text-align: right;
     background-color: #0d5e64;
@@ -258,12 +271,10 @@ td {
     color: whitesmoke;
     font-size: 17px;
 }
-
 #get-intouch h3 {
     padding-bottom: 5px;
 
 }
-
 #get-intouch p {
     padding: 5px 0;
 }
@@ -277,17 +288,14 @@ td {
     color: #555;
     width: 100%;
 }
-
 #form-styles h3 {
     font-size: 30px;
     margin-bottom: 10px;
 }
-
 #form-styles p {
     margin-bottom: 20px;
     color: #555;
 }
-
 #form-styles form {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -295,14 +303,12 @@ td {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-
   #form-styles > label {
     display: block;
     margin-bottom: 5px;
     color: #333;
 
   }
-
   #form-styles .text-input {
     width: 100%;
     padding: 10px;
@@ -311,7 +317,6 @@ td {
     border-radius: 3px;
     margin-bottom: 15px;
   }
-
   input[type="datetime-local"] {
     width: 100%;
     padding: 10px;
@@ -320,7 +325,6 @@ td {
     border-radius: 3px;
     margin-bottom: 15px;
   }
-
  #drop-down select {
     width: 100%;
     padding: 10px;
@@ -329,7 +333,6 @@ td {
     border-radius: 3px;
     margin-bottom: 15px;
   }
-
 #radio label {
     display: inline-block;
     margin: 0 10px;
@@ -339,7 +342,6 @@ td {
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
-
 input[type="radio"]:checked + label {
     background-color: #4e8f94;
     color: whitesmoke;
@@ -356,18 +358,15 @@ input[type="radio"]:checked + label {
     display: flex;
     justify-content: space-evenly;
   }
-
   #requests {
     margin: 5px;
   }
-
   #requests textarea {
     width: 90%;
     height: 10em;
     border: 1px solid #ddd;
     border-radius: 5px;
   }
-
   input[type="submit"] {
     background-color: #4e8f94;
     color: #fff;
@@ -377,11 +376,9 @@ input[type="radio"]:checked + label {
     cursor: pointer;
     border-radius: 3px;
   }
- 
   input[type="submit"]:hover {
     background-color: #adadad;
   }
-
 
 /* End of Main Section Styles */
 
@@ -495,8 +492,8 @@ footer {
     table {
         padding:0;
         display: flex;
-        
-
+        justify-content: center;
+    
     }
 
 
@@ -520,6 +517,15 @@ footer {
         display: flex;
         align-items: center;
     }
+
+    #food-menu, #drinks-menu {
+        padding: 5% 10%;
+        background-color: white;
+        border-radius: 15px;
+
+    }
+
+    
 
 
 @media screen and (min-width:1024px){
@@ -555,12 +561,40 @@ footer {
         align-items: center;
     }
 
-    /*.image-table-wrapper {
-        max-width: 600px;
+    .table-wrapper {
+        width: 60%;
+        font-size: 1em;
+        padding: 2em;
+        
+    }
+
+    #menu-container {
+        
+        display: flex;
+        flex-direction: row;  
+        justify-content: space-around;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 18px ;
+    }
+    #menu-wrapper {
+        width:60%;
+        margin: 20px;
+
+    }
+
+    #menu-img-wrapper {
+        width: 50%;
         margin-right: 20px;
         display: flex;
         align-items: center;
-    }*/
+    }
+    #menu-img-wrapper img {
+        width: 100%;
+        height: auto;
+        border-radius: 30px;
+    }
+
 
     #radio div  {
         width: 50%;
