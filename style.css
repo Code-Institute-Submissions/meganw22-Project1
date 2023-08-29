@@ -221,37 +221,66 @@ td {
     padding: 10px 20px;
 }
 
-#menu-container {
+.food-menu, .drinks-menu {
+    padding: 5% 0;
+    background-color: whitesmoke;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/*.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}*/
+
+ .menu-wrapper {
+    flex: 2;
+    padding: 0 5%;
+  }
+
+.menu-img-wrapper {
+    position: relative;
+    flex: 1;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
     
+  }
 
-}
-
-#menu-wrapper {
-    width: 60%;
-    
-}
-
-
-#food-menu, #drinks-menu {
-    padding: 5%;
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-#food-menu > h2, #drinks-menu > h2 {
+.food-menu > h2, .drinks-menu > h2 {
     text-align: center;
 }
 
+.menu-img-wrapper img {
+    width: 100%;
+    height: auto;
+    background-color: #0f2c2e;
+}
+
 .menu-items {
-    font-size: smaller;
+    padding: 2% 5%;
 }
 
 .menu-items h3 {
     text-decoration-line: underline;
+    margin-bottom: 5px;
 }
 
-.menu-small-text {
-    padding: 2% 5%;
+.menu-items li {
+    list-style: none;
+    margin-bottom: 5px;
+    color: #444;
+    padding-top: 2px;
+
 }
+
+/*.menu-small-text {
+    padding: 2% 5%;
+} */
 
 /*Contact Us Section*/
 
@@ -518,13 +547,31 @@ footer {
         align-items: center;
     }
 
-    #food-menu, #drinks-menu {
-        padding: 5% 10%;
+    .food-menu, .drinks-menu {
+        padding: 5%;
+        margin: 5%;
         background-color: white;
         border-radius: 15px;
 
     }
 
+.menu-img-wrapper img {
+    width: 70%;
+}
+
+    .menu-wrapper {
+        width: 100%;
+        /*display: flex;
+        justify-content: center;*/
+    }
+   /* #prosecco {
+        position: absolute;
+        width:45%;
+        height: auto;
+        display: flex;
+        bottom: -150%;
+        left: 40%;
+    } */
     
 
 
@@ -568,7 +615,7 @@ footer {
         
     }
 
-    #menu-container {
+   /* .menu-container {
         
         display: flex;
         flex-direction: row;  
@@ -577,24 +624,32 @@ footer {
         padding-right: 10%;
         font-size: 18px ;
     }
-    #menu-wrapper {
+    .menu-wrapper {
         width:60%;
         margin: 20px;
 
     }
 
-    #menu-img-wrapper {
+    .menu-img-wrapper {
         width: 50%;
         margin-right: 20px;
         display: flex;
         align-items: center;
     }
-    #menu-img-wrapper img {
+    .menu-img-wrapper img {
         width: 100%;
         height: auto;
         border-radius: 30px;
     }
 
+    #prosecco {
+          position: absolute;
+        width:45%;
+        height: auto;
+        display: flex;
+        bottom: -150%;
+        left: 40%; */
+    }
 
     #radio div  {
         width: 50%;
