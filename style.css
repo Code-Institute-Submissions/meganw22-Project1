@@ -157,19 +157,17 @@ main {
     bottom: 75%;
 }
 
-/*#hear-from-you {
+#hear-from-you {
     background-color:  rgba(255, 255, 255, 0.2);
     color: whitesmoke;
     width: 100%;
     margin-top: 10px;
     padding: 20px;
     font-size: 25px;
-    font-style: italic;
-    z-index: 50;
-    letter-spacing: 4px;
+    bottom:25%;
    
     
-} */
+} 
 
 #menu-header {
     background-color: #0f2c2e;
@@ -209,6 +207,144 @@ main {
     height: auto;
 }
 
+#get-intouch {
+    text-align: right;
+    background-color: #0d5e64;
+    padding: 10px 10%;
+    color: whitesmoke;
+    font-size: 17px;
+    
+
+}
+
+#get-intouch h3 {
+    padding-bottom: 5px;
+
+}
+
+#get-intouch p {
+    padding: 5px 0;
+}
+
+/* Form Styles */
+
+
+#form-styles {
+    font-size: 18px;
+    padding: 5%;
+    color: #555;
+    width: 100%;
+}
+
+#form-styles h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#form-styles p {
+    margin-bottom: 20px;
+    color: #555;
+    font-size: ;
+}
+
+#form-styles form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  #form-styles > label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+
+  }
+
+  #form-styles .text-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+
+  input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+
+ #drop-down select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+
+  #radio h4 {
+    padding: 10px 0 ;
+    color: #555;
+  }
+
+#radio label {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+input[type="radio"]:checked + label {
+    background-color: #4e8f94;
+    color: whitesmoke;
+    border-color: #333;
+}
+
+  input[type="radio"] {
+    padding: 30px;
+    display: none;
+    justify-content: center;
+  }
+  #radio div {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #requests {
+    margin: 5px;
+  }
+
+  #requests textarea {
+    width: 90%;
+    height: 10em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  input[type="submit"] {
+    background-color: #4e8f94;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+ 
+  input[type="submit"]:hover {
+    background-color: #adadad;
+  }
 /* End of Main Section Styles */
 
 /* Start of Footer Styles */
@@ -312,4 +448,10 @@ footer {
     #hear-from-you {
         margin-top: 80px;
         
+}
+    form {
+        width: 50%;
+}
+
+}
 }
