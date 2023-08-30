@@ -501,14 +501,15 @@ footer {
 
     #nav-bar {
         display: flex;
-        font-size: 1em;
+        font-size: 18px;
         font-weight: 600;
         justify-content: flex-end;
     }
 
     #nav-bar li {
         padding: 0 15px;
-    }
+        color: white;
+        }
 
 
     .nav-toggle-label {
