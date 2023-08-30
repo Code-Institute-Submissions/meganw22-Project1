@@ -191,6 +191,8 @@ main {
 
 .text-align-left {
     text-align: left;
+    display: flex;
+    align-items: flex-start;
 }
 
 td {
@@ -211,7 +213,7 @@ td {
 #gallery h2 {
     font-size: 2em;
     text-align: center;
-    padding: 5px;
+    padding: 20px 5px;
 }
 
 #gallery img {
@@ -380,6 +382,7 @@ input[type="datetime-local"] {
     border: 1px solid #ddd;
     border-radius: 3px;
     margin-bottom: 15px;
+    color: #555;
 }
 
 #drop-down select {
@@ -389,6 +392,7 @@ input[type="datetime-local"] {
     border: 1px solid #ddd;
     border-radius: 3px;
     margin-bottom: 15px;
+    color: #555;
 }
 
 #radio label {
@@ -424,7 +428,7 @@ input[type="radio"] {
 }
 
 #requests textarea {
-    width: 90%;
+    width: 100%;
     height: 10em;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -662,6 +666,7 @@ footer {
         .menu-container {
             display: flex;
             justify-content: space-between;
+            align-items: stretch;
         }
 
         .food-menu,
@@ -685,13 +690,12 @@ footer {
             flex-direction: column;
             justify-content: space-around;
             max-width: auto;
-            max-height: 20%;
+            max-height: fit-content;
         }
 
         .food-img-wrapper img,
         .drink-img-wrapper img {
             border-radius: 20px;
-            max-width: 100%;
             padding: 2%;
             max-width: none;
         }
@@ -704,6 +708,11 @@ footer {
         /*Contact Us Section*/
         #hear-from-you {
             margin-top: 80px;
+        }
+
+        #form-styles .text-align-left {
+            margin-bottom: 20px;
+            color: #555;
         }
 
         #radio div {
@@ -726,7 +735,6 @@ footer {
             margin-right: 20px;
             display: flex;
             align-items: center;
-
         }
 
         .smoothie-image-wrapper img {
@@ -738,6 +746,17 @@ footer {
         @media screen and (min-width:1440px) {
 
             /* Food and Drink Section*/
+            .whole-page {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .menu-container {
+                width:1440px;
+            }
+
             .menu-wrapper {
                 margin-left: 5%;
                 margin-right: 5%;
@@ -751,8 +770,10 @@ footer {
 
             .food-img-wrapper,
             .drink-img-wrapper {
-                max-width: 28%;
+                width: 100%;
             }
+
+
         }
     }
 }
