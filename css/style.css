@@ -72,6 +72,7 @@ nav {
 #nav-bar li {
     padding-top: 5px;
     padding-bottom: 5px;
+    font-weight: 700;
 }
 
 .selected {
@@ -99,7 +100,7 @@ main {
     justify-content: space-between;
     display: flex;
     flex-direction: column;
-    margin-top: 68.5px;
+    margin-top: 63px;
     min-height: 50vh;
     background-color: rgb(235, 234, 234);
 }
@@ -149,7 +150,6 @@ main {
     padding: 30px 10%;
 }
 
-
 #meet-us h2 {
     text-decoration-line: underline;
     color: #505050;
@@ -158,7 +158,6 @@ main {
 #meet-us p {
     margin-top: 10px;
     color: #505050;
-
 }
 
 #portrait-us img {
@@ -503,6 +502,7 @@ footer {
     #nav-bar {
         display: flex;
         font-size: 1em;
+        font-weight: 600;
         justify-content: flex-end;
     }
 
