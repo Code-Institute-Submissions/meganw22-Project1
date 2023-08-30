@@ -297,7 +297,7 @@ td {
     margin-bottom: 5px;
 }
 
-.menu-items li {
+.menu-items p {
     list-style: none;
     margin-bottom: 5px;
     color: #444;
@@ -621,10 +621,7 @@ footer {
         font-size: 35px;
     }
 
-    .smoothie-image-wrapper img {
-        max-width: ;
-    }
-/*End of Main Styles for max-width:768px*/
+    /*End of Main Styles for max-width:768px*/
 
     @media screen and (min-width:1024px) {
 
@@ -699,11 +696,12 @@ footer {
             max-width: none;
         }
 
-        /* no display style for */
+        /* style for images to be displayed when in larger desktop viewports */
         .no-display {
             display: flex;
         }
 
+        /*Contact Us Section*/
         #hear-from-you {
             margin-top: 80px;
         }
@@ -739,15 +737,16 @@ footer {
 
         @media screen and (min-width:1440px) {
 
+            /* Food and Drink Section*/
             .menu-wrapper {
                 margin-left: 5%;
                 margin-right: 5%;
             }
 
-            .food-menu, .drinks-menu {
+            .food-menu,
+            .drinks-menu {
                 padding-left: 15%;
                 padding-right: 15%;
-                
             }
 
             .food-img-wrapper,
