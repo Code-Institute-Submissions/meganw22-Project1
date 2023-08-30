@@ -64,9 +64,9 @@ nav {
 }
 
 #nav-bar {
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     list-style-type: none;
-    font-size: 120%;
+    font-size: 110%;
 }
 
 #nav-bar li {
@@ -108,25 +108,24 @@ main {
 .main-header {
     position: relative;
     color: #505050;
+
 }
 
 .main-header img {
-    background-size: cover/center;
-    background-repeat: no-repeat;
-    height: auto;
-    max-width: 100%;
     width: 100%;
+    background-size: auto 100%;
+    background-position: center;
     overflow: hidden;
     display: block;
 }
 
-.main-header h5 {
+.main-header>.home-page-text {
     position: absolute;
     background-color: rgba(255, 255, 255, 0.836);
     padding: 5px;
     width: fit-content;
-    justify-content: center;
     font-style: italic;
+    font-weight: 600;
     letter-spacing: 3px;
     bottom: 20%;
     right: 20%;
@@ -145,7 +144,7 @@ main {
     bottom: 60%;
 }
 
-/* Meet us section */
+/* Meet Us section */
 .meet-us-container {
     padding: 30px 10%;
 }
@@ -467,7 +466,6 @@ footer {
     background-color: #4e8f94;
     padding: 0 0.5em;
     color: whitesmoke;
-
 }
 
 #social-networks {
@@ -477,7 +475,6 @@ footer {
     text-decoration: none;
     justify-content: space-around;
     list-style-type: none;
-
 }
 
 #social-networks a {
@@ -489,13 +486,12 @@ footer {
 /* media query: for tablets and larger (768px and up) */
 @media screen and (min-width:768px) {
 
-    /* header */
+    /* Header */
     nav {
         display: block;
         background-color: inherit;
         position: relative;
         box-shadow: none;
-        /* width: fit-content;*/
         padding: 0;
     }
 
@@ -509,8 +505,7 @@ footer {
     #nav-bar li {
         padding: 0 15px;
         color: white;
-        }
-
+    }
 
     .nav-toggle-label {
         display: none;
@@ -521,7 +516,8 @@ footer {
         column-count: 3;
     }
 
-    #home-page-text {
+    /* Start of Main Styles */
+    .main-header>.home-page-text {
         left: 0;
         padding: 1rem;
         font-size: 18px;
@@ -530,19 +526,13 @@ footer {
     #menu-head-text {
         padding: 1rem;
         font-size: 30px;
-
     }
 
     .main-header .menu-subtext {
         font-size: 2.25em;
     }
 
-    #hear-from-you {
-        margin-top: 110px;
-        padding: 20px;
-        font-size: 35px;
-    }
-
+    /*Opening Times Section*/
     .table-container {
         display: flex;
         flex-direction: row;
@@ -552,7 +542,6 @@ footer {
     }
 
     .table-img-wrapper {
-        /* max-width: 250px;*/
         margin-right: 20px;
         display: flex;
         align-items: center;
@@ -576,6 +565,7 @@ footer {
         justify-content: center;
     }
 
+    /* Meet us Section*/
     .meet-us-container {
         display: flex;
         flex-direction: row;
@@ -598,6 +588,7 @@ footer {
         align-items: center;
     }
 
+    /*Food and Drinks Menu Section*/
     .food-menu {
         margin: 5% 5% 0 5%;
         background-color: white;
@@ -623,11 +614,17 @@ footer {
         padding: 0;
     }
 
+    /* Contact Us Section*/
+    #hear-from-you {
+        margin-top: 110px;
+        padding: 20px;
+        font-size: 35px;
+    }
 
     .smoothie-image-wrapper img {
         max-width: ;
-
     }
+/*End of Main Styles for max-width:768px*/
 
     @media screen and (min-width:1024px) {
 
@@ -636,8 +633,9 @@ footer {
             column-count: 4;
         }
 
+        /* Start of Main Styles */
         .main-header {
-            height: 400px;
+            height: 500px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -652,10 +650,6 @@ footer {
             font-size: 2em;
         }
 
-        #hear-from-you {
-            margin-top: 80px;
-        }
-
         .meet-us-wrapper {
             font-size: 20px;
             display: flex;
@@ -666,7 +660,6 @@ footer {
             width: 60%;
             font-size: 1em;
             padding: 2em;
-
         }
 
         .menu-container {
@@ -706,8 +699,13 @@ footer {
             max-width: none;
         }
 
+        /* no display style for */
         .no-display {
             display: flex;
+        }
+
+        #hear-from-you {
+            margin-top: 80px;
         }
 
         #radio div {
@@ -737,20 +735,24 @@ footer {
             max-width: 110%;
             border-radius: 5px;
             height: auto;
-
-
         }
 
         @media screen and (min-width:1440px) {
 
             .menu-wrapper {
-                margin: 1% 10%;
+                margin-left: 5%;
+                margin-right: 5%;
+            }
+
+            .food-menu, .drinks-menu {
+                padding-left: 15%;
+                padding-right: 15%;
+                
             }
 
             .food-img-wrapper,
             .drink-img-wrapper {
                 max-width: 28%;
-
             }
         }
     }
