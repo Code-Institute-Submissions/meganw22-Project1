@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+/* Body Styles */
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +12,6 @@ body {
     min-height: 100vh;
     width: 100%;
     height: auto;
-
 }
 
 h1,
@@ -19,7 +19,6 @@ h2,
 h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
-
 }
 
 /* Header Styles */
@@ -43,13 +42,13 @@ header a {
     text-decoration: none;
     color: white;
     width: 100%;
-
 }
 
 header h1 {
     font-size: 2.2em;
 }
 
+/* Navigation Bar*/
 nav {
     font-size: 110%;
     background-color: #0d5e64;
@@ -62,14 +61,12 @@ nav {
     z-index: 99;
     padding: 1em;
     display: none;
-
 }
 
 #nav-bar {
     letter-spacing: 3px;
     list-style-type: none;
     font-size: 120%;
-
 }
 
 #nav-bar li {
@@ -79,7 +76,6 @@ nav {
 
 .selected {
     border-bottom: 1px white solid;
-
 }
 
 /* Nav toggle */
@@ -89,12 +85,10 @@ nav {
 
 #nav-toggle {
     display: none;
-
 }
 
 .nav-toggle-label {
     font-size: 1.5rem;
-
 }
 
 /* End of header Styles */
@@ -108,7 +102,6 @@ main {
     margin-top: 68.5px;
     min-height: 50vh;
     background-color: rgb(235, 234, 234);
-
 }
 
 .main-header {
@@ -211,6 +204,20 @@ td {
 .photos>img {
     width: 100%;
     height: auto;
+}
+
+#gallery {
+    padding: 20px;
+}
+
+#gallery h2 {
+    font-size: 2em;
+    text-align: center;
+    padding: 5px;
+}
+
+#gallery img {
+    margin: 5px;
 }
 
 /* Food and Drinks Menu Section*/
@@ -511,7 +518,6 @@ footer {
     /* Gallery */
     .photos {
         column-count: 3;
-
     }
 
     #home-page-text {
@@ -540,8 +546,7 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        padding-left: 10%;
-        padding-right: 10%;
+        padding: 2% 10%;
         font-size: 18px;
     }
 
@@ -581,6 +586,7 @@ footer {
 
     .meet-us-wrapper {
         width: 60%;
+        padding-right: 5%;
     }
 
     .meet-image-wrapper {
