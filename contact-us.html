@@ -72,19 +72,20 @@
                 required>
               <br>
             </div>
-            <label for="time">Date & Time:</label>
-            <input type="datetime-local" placeholder="Date and time" required name="date" value="2023-08-01T10:00">
+            <label for="datetime-local">Date & Time:</label>
+            <input type="datetime-local" id="datetime-local" required name="date" value="2023-08-01T10:00">
 
             <!--Dropdown menu-->
             <div id="drop-down">
               <label for="people_number">Number of People</label>
-              <select id="people_number" name="people_number" placeholder="2 people" required>
-                <option value="1">1 person</option>
-                <option value="2">2 people</option>
-                <option value="3">3 people</option>
-                <option value="4">4 people</option>
-                <option value="5">5 people</option>
-                <option value="6">6 people</option>
+              <select id="people_number" name="people_number" required>
+                <option value="" disabled selected>Select an option...</option>
+                <option value="option1">1 person</option>
+                <option value="option2">2 people</option>
+                <option value="option3">3 people</option>
+                <option value="option4">4 people</option>
+                <option value="option5">5 people</option>
+                <option value="option6">6 people</option>
               </select>
             </div>
 
@@ -100,7 +101,7 @@
             </div>
             <br>
             <!--Request Box-->
-            <div id="requests">
+            <div id="request-box">
               <label for="requests" class="block-label">Requests:</label>
               <textarea id="requests" rows="4" cols="30" name="requests"></textarea>
             </div>
