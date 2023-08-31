@@ -16,7 +16,7 @@ body {
 
 h1,
 h2,
-h3 {
+ {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -36,6 +36,7 @@ header {
   padding: 10px;
   align-items: center;
   z-index: 98;
+  height: auto;
 }
 
 header a {
@@ -138,11 +139,11 @@ main {
   background-color: rgba(255, 255, 255, 0.75);
   padding: 5px;
   text-align: center;
-  font-size: 1em;
+  font-size: 1.5em;
   font-style: italic;
   font-weight: 700;
   z-index: 50;
-  bottom: 60%;
+  bottom: 40%;
 }
 
 /* Meet Us section */
@@ -222,9 +223,10 @@ td {
 }
 
 /* Food and Drinks Menu Section*/
-#menu-head-text {
-  background-color: #0f2c2e;
+.menu-head-text > h2 {
+  background-color: #0d5e64;
   color: whitesmoke;
+  text-transform: capitalize;
   text-align: center;
   font-size: 1em;
   padding: 10px 20px;
@@ -298,6 +300,7 @@ td {
 .menu-items h3 {
   text-decoration-line: underline;
   margin-bottom: 5px;
+  text-transform: uppercase;
 }
 
 .menu-items p {
@@ -328,6 +331,7 @@ td {
 
 #get-intouch h3 {
   padding-bottom: 5px;
+  text-transform: uppercase;
 }
 
 #get-intouch p {
@@ -441,12 +445,13 @@ fieldset {
 }
 
 input[type="submit"] {
-  background-color: #4e8f94;
+  background-color: #0d5e64;
   color: #fff;
   border: none;
   padding: 10px 20px;
   font-size: 18px;
-  font-weight: 600;
+  letter-spacing: 2px;
+  font-weight: 500;
   cursor: pointer;
   border-radius: 3px;
 }
@@ -534,9 +539,9 @@ footer {
     text-transform: none;
   }
 
-  #menu-head-text {
+  .menu-head-text > h2 {
     padding: 1rem;
-    font-size: 20px;
+    font-size: 1.5em;
   }
 
   .main-header .menu-subtext {
