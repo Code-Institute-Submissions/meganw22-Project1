@@ -16,6 +16,13 @@ Welcome to the website for Ocean Café, based in Hertford, UK. This is a local b
 ## User Experience
 The primary goal of the Ocean Café website is to provide a good user experience which will ultimately attract the viewer to the Café.
 
+### User stories
+#### As a new customer to Ocean Café, I would like to know if I want to eat here.
+ New customers will be directed first to the home page where it is brightly colour with images and user friendly sections to display the information they require, opening times, a peek at the type of food made and the option of a menu. The User can use the website to view the items on the menu online to decide if the menu items are tempting enough to acquire their custom. 
+
+#### As a returning customer, I want to get a table booked
+The returning customer will be able to quickly get a feel for the website through easy navigation display tabs; 'home', 'menu' and 'contact us'. The customer will click on the 'contact us link and will be directed to a user friendly form to submit an enquiry or request to the restaurant. They may also have a look at the 'men'u as the link in close proximity to the 'contact us' link.
+
 ### Ease of Use  
 A positive response can be found through the websites ease of use; the website is easy to navigate for a first-time user and can provide bold information for the user to view.  
 Ease of use is also applied through the websites ability to be viewed on all screen sizes, this allows the user to comfortably view the website easily and happily without struggling to view the content.
@@ -48,6 +55,11 @@ Using various sizes and styles of this font, creates a sense of hierarchy and st
 ![font-styles-sizes](https://github.com/meganw22/Project1/assets/141934888/17ed1a3e-9b2a-4ba4-bd8b-11016ba61472)
 
 ## Features
+### Responsive
+The website has been made responsive of styles from mobile devices to screen widths of 1440px. Having a successfully responsive website allows maximum positive user experiences when using this website and mitigates any struggle to view the website content.
+
+![responsive-proof](https://github.com/meganw22/Project1/assets/141934888/b33040c2-3e42-4247-9657-1ceb9f97f91f)
+
 ### Interface Design
 Interface design is beneficial for the website user to understand the website content and fill the viewer with good expectations and excitement to want to dine at the cafe. 
 
@@ -66,17 +78,21 @@ The footer has been created to mirror the styles used on the header and nav bar.
 
 ![footer-bar](https://github.com/meganw22/Project1/assets/141934888/d85ceacf-527b-4ada-b3ea-0a1da731c9cb)
 
-### Responsive
-The website has been made responsive of styles from mobile devices to screen widths of 1440px. Having a successfully responsive website allows maximum positive user experiences when using this website and mitigates any struggle to view the website content.
-
-![responsive-proof](https://github.com/meganw22/Project1/assets/141934888/b33040c2-3e42-4247-9657-1ceb9f97f91f)
-
 #### Home Page
 The home page contains a section called 'Meet Us', in which we tell the viewer a little information about ourselves with a picture to make the website more personable. Also included is a brief bit of information on the type of food/drink served at the cafe and who the cafe can accommodate.
 The next section is clearly defined as a new section because of the change in background colour.
 The gallery is displayed responsively, all the images displayed are either taken by myself or are sourced from Pexels
 
 ![home-page](https://github.com/meganw22/Project1/assets/141934888/d86fdaea-fe96-4352-be1f-0e1b5dfebc62)
+
+#### Menu Page
+The menu page is split into two sections, the food menu and the drink menu. The menu item is displayed in larger font and underlined and is followed by a short description of the main ingredients within the menu item. The drinks menu is styled similar to the food menu but splits the types of drinks up into more accurate sub-sections, such as smoothies and soft drinks. This will aid with user navigation and provides an ordered menu item list.
+On screen sizes larger than 1024px, images are aligned to the right of the page and spaced evenly to display a colourful image when the user scrolls through the menus.
+
+![menu-page](https://github.com/meganw22/Project1/assets/141934888/2de279fe-315f-42e5-b147-07fffde93f8b)
+
+#### Contact us Page
+the contact us page is displayed as one small heading section providing the contact details and one larger section containing the booking form. The booking form requires the user to correctly fill in the form to submit. The user is supported by prompts if a bit of text is not entered correctly. An image is placed within the proximity of the form to provide colour and positive user experience as well as tempting them again with a menu item.
 
 ## Testing
 
@@ -89,11 +105,12 @@ W3C CSS Validation Service was used to ensure that all CSS code in the website i
 ![CSS-validator](https://github.com/meganw22/Project1/assets/141934888/67d31a92-1176-4031-80d5-5e21c9a06e5d)
 
 ### Lighthouse
-Lighthouse was used to check the website Performance, Accessibility, Best Practices and SEO
+Lighthouse was used to check each page in the website for Performance, Accessibility, Best Practices and SEO
 As displayed, all are above a score of 90.
 
 ![performance](https://github.com/meganw22/Project1/assets/141934888/f819e145-9775-4995-9bb5-6cf013224252)
-
+![menu-performance](https://github.com/meganw22/Project1/assets/141934888/ba82b1ca-4326-4c00-94e4-e30b38f75c7c)
+![contact-performance](https://github.com/meganw22/Project1/assets/141934888/e38ff0e3-c516-456b-a4b3-3dca74eccc17)
 
 ### Full Link Testing
 Testing of links performed on Google Chrome
@@ -140,5 +157,5 @@ The cloud based server used to create the Ocean Café website was GitHub. The fo
   
   For testing procedures:
 - HTML Validator  (https://validator.w3.org/)
-- CSS Valdator
+- CSS Validator (https://jigsaw.w3.org/css-validator/)
 - Image convertor from jpeg to webp (https://resizing.app/blog/how-to-resize-image-without-losing-quality/)
