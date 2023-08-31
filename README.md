@@ -39,6 +39,7 @@ For creation of the wireframes, I have used draw.io which has provided clear tem
 
 ### Colour Scheme
 The colour scheme is created to match the theme of a beach and ocean, the colours are clear and provide good accessibility suited contrasts when used together
+
 ![colour scheme](https://github.com/meganw22/Project1/assets/141934888/e68ea61c-e290-4cb3-8a6e-9bb085d04548)
 
 ### Typography
@@ -90,6 +91,7 @@ W3C CSS Validation Service was used to ensure that all CSS code in the website i
 ### Lighthouse
 Lighthouse was used to check the website Performance, Accessibility, Best Practices and SEO
 As displayed, all are above a score of 90.
+
 ![performance](https://github.com/meganw22/Project1/assets/141934888/f819e145-9775-4995-9bb5-6cf013224252)
 
 
@@ -118,7 +120,7 @@ Testing of links performed on Google Chrome
 | Submit | Clicking Submit will direct the user to successful form completion screen | Fill in all required form content correctly and press submit | User is directed to successful form completion screen | Pass |
 
 ## Bug Fixes
-During the creation of the website, class and id selectors were created during the initial flow of coding. I found that as I progressed with my code and built more intricate code that flow broke up. This resulted with splitting up and specifying more particular code to match the styles required on each page. For example, before; I used "class=img-wrapper" to wrap all images to the right of the body of text in each section. As I progressed, I found on occasion I was renaming id selectors as class selectors in CSS and not renaming the selectors in the html code. This resulted in large errors in responsivity and incorrectly displayed webpages. 
+During the creation of the website, class and id selectors were created during the initial flow of coding. I found that as I progressed with my code and built more intricate code that flow broke up. This resulted with splitting up and specifying more particular code to match the styles required on each page. For example, before; I used "class=img-wrapper" to wrap all images to the right of the body of text in each section. As I progressed, I found on occasion I was renaming id selectors as class selectors in CSS and not renaming the selectors in the html code. This resulted in large errors in responsivity and incorrectly displayed webpages resulting in sideways swiping to occur to see the full content.
 
 ![no-css](https://github.com/meganw22/Project1/assets/141934888/ebd8a4cf-7750-4b51-b8ad-5a8efa356a37)
 ![no-css-image](https://github.com/meganw22/Project1/assets/141934888/6f668da8-f0d0-415e-afde-a4cd9a4c0d94)
@@ -135,6 +137,7 @@ The cloud based server used to create the Ocean Café website was GitHub. The fo
 - Draw.io for creation of wireframes (http://draw.io/ )
 - Montserrat font (https://fonts.google.com/specimen/Montserrat?preview.text=Ocean%20Cafe&preview.text_type=custom&query=mo)
 - Pexels Image sources (https://www.pexels.com/)
+  
   For testing procedures:
 - HTML Validator  (https://validator.w3.org/)
 - CSS Valdator
