@@ -1,39 +1,72 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Ocean Café, Hertford
 
-Welcome,
+Welcome to the website for Ocean Café, based in Hertford, UK. This is a local breakfast and lunch café website designed to attract an audience to dine at the Café. The availability of a menu, online booking form and a well displayed gallery will assure the audience of any expectations they may have.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![home-header-only](https://github.com/meganw22/Project1/assets/141934888/99cb4101-8185-4fa1-8b9f-24d7acaf6104)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
+# Contents
 
-## Codeanywhere Reminders
+ - User Experience
+ - Design
+ - Features
+ - Testing
+ - Deployment
+ - Credits
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## User Experience
+The primary goal of the Ocean Café website is to provide a good user experience which will ultimately attract the viewer to the Café.
+### Ease of Use  
+A positive response can be found through the websites ease of use; the website is easy to navigate for a first-time user and can provide bold information for the user to view.  
+Ease of use is also applied through the websites ability to be viewed on all screen sizes, this allows the user to comfortably view the website easily and happily without struggling to view the content.
+### Customer Expectations
+As a customer, you would expect to see the basic elements of a café website: Menu, contact details, location, opening times and means of booking. All of which have been provided across the three webpages created, Home, Menu and Contact us.  
+_Note – As this is a fictional café, the exact address location of the café is unavailable, but the town location is specified._
 
-`python3 -m http.server`
+## Design
+### Wireframes 
+For creation of the wireframes, I have used draw.io which has provided clear templates for the website initial design: 
+### Home Page 
+![home-page](https://github.com/meganw22/Project1/assets/141934888/8c9d1866-b237-4317-9653-9bdcc4d729b1)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Menu Page
+![menu-page](https://github.com/meganw22/Project1/assets/141934888/4de3c50e-827f-44a0-80c4-90cd185999c9)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### Contact Us Page
+![contact-page](https://github.com/meganw22/Project1/assets/141934888/031d1d20-aba1-4467-98ad-26e315628ea9)
 
-`http_server`
+### Colour Scheme
+![colour scheme](https://github.com/meganw22/Project1/assets/141934888/e68ea61c-e290-4cb3-8a6e-9bb085d04548)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Typography
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### 
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Features
+### General - Nav bar/footer
+###
 
-To log into the Heroku toolbelt CLI:
+## Testing
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### HTML Validator
+![HTML-validator](https://github.com/meganw22/Project1/assets/141934888/87a3bffb-dc16-4a81-9108-a3bf0a311ed2)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### CSS Validator
+![CSS-validator](https://github.com/meganw22/Project1/assets/141934888/67d31a92-1176-4031-80d5-5e21c9a06e5d)
 
----
+### Lighthouse
 
-Happy coding!
+
+## Deployment
+The cloud based server used to create the Ocean Café website was GitHub. The following steps were completed in order to deploy the project to a hosting platform:
+ 1. Login to GitHub and selection of the required Project file, 'meganw22/Project1'
+ 2. Along the menu tab, selected 'Settings', navigated to heading 'code and automation', and selected 'Pages'
+ 3. Ensured the 'Source' was selected as 'Deploy from branch' and 'Branch' was selected as 'main'/ (root).  
+ 5. Once saved and after waiting a few minutes, returned to the 'code' tab and found the deployed site ready to open.
+ 6. Find the deployed webpage link here: https://meganw22.github.io/Project1/
+
+## Credits
+- Draw.io for creation of wireframes (http://draw.io/ )
+  For testing procedures:
+- HTML Validator  (https://validator.w3.org/)
+- CSS Valdator
+- Image convertor from jpeg to webp (https://resizing.app/blog/how-to-resize-image-without-losing-quality/)
