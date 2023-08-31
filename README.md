@@ -94,7 +94,7 @@ On screen sizes larger than 1024px, images are aligned to the right of the page 
 ### Contact us Page
 the contact us page is displayed as one small heading section providing the contact details and one larger section containing the booking form. The booking form requires the user to correctly fill in the form to submit. The user is supported by prompts if a bit of text is not entered correctly. An image is placed within the proximity of the form to provide colour and positive user experience as well as tempting them again with a menu item.
 
-![contact-performance](https://github.com/meganw22/Project1/assets/141934888/ed93feb7-ec5b-46fb-b2bf-f13765bac8e1)
+![contact-page](https://github.com/meganw22/Project1/assets/141934888/292b266f-4b3d-4c81-b38f-104529eca115)
 
 # Testing
 
@@ -120,17 +120,20 @@ During the Lighthouse checks, Performance came up with lower scores than require
 ## Full Link Testing
 Testing of links performed on Google Chrome
 
-|Element| Required Outcome  | Test Steps | Actual Outcome | Result|
-| **Nav bar** |
+|Element| Required Outcome  | Test Steps | Actual Outcome | Result |
+|--- | --- | --- | --- | --- |
+| **Nav bar** | 
 | Ocean Café Link | when Ocean Café text is clicked the page displayed will be the Home Page | Click the Ocean Café text in the nav bar | Home Page is displayed | Pass |
 | Home Link | when Home is clicked the page displayed will be the Home Page | Click the Home link in the nav bar | Home Page is displayed | Pass |
 | Menu Link | when Menu is clicked the page displayed will be the Menu Page | Click the Menu link in the nav bar | Menu Page is displayed | Pass |
 | Contact Us Link | when Contact Us is clicked the page displayed will be the Contact Us Page | Click the Contact Us link in the nav bar | Contact Us page is displayed | Pass |
+|--- | --- | --- | --- | --- |
 | **Footer - Social Networks** |
 | Facebook icon | When the icon is selected, a new tab will open and display the Facebook website | Click the Facebook icon in the footer | Facebook opens in a new tab | Pass |
 | Instagram icon | When the icon is selected, a new tab will open and display the Instagram website | Click the Instagram icon in the footer | Instagram opens in a new tab | Pass |
 | YouTube icon | When the icon is selected, a new tab will open and display the YouTube website | Click the YouTube icon in the footer | YouTube opens in a new tab | Pass |
 | Twitter icon | When the icon is selected, a new tab will open and display the Twitter website | Click the Twitter icon in the footer | Twitter opens in a new tab | Pass |
+|--- | --- | --- | --- | --- |
 | **Booking form** |
 | First name | Content is required | Leave the text field blank and Submit the form | A pop-up will display asking the user to complete the section | Pass |
 | Last name | Content is required | Leave the text field blank and Submit the form | A pop-up will display asking the user to complete the section | Pass |
