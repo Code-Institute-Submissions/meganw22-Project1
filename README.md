@@ -15,9 +15,11 @@ Welcome to the website for Ocean Café, based in Hertford, UK. This is a local b
 
 ## User Experience
 The primary goal of the Ocean Café website is to provide a good user experience which will ultimately attract the viewer to the Café.
+
 ### Ease of Use  
 A positive response can be found through the websites ease of use; the website is easy to navigate for a first-time user and can provide bold information for the user to view.  
 Ease of use is also applied through the websites ability to be viewed on all screen sizes, this allows the user to comfortably view the website easily and happily without struggling to view the content.
+
 ### Customer Expectations
 As a customer, you would expect to see the basic elements of a café website: Menu, contact details, location, opening times and means of booking. All of which have been provided across the three webpages created, Home, Menu and Contact us.  
 _Note – As this is a fictional café, the exact address location of the café is unavailable, but the town location is specified._
@@ -25,6 +27,7 @@ _Note – As this is a fictional café, the exact address location of the café 
 ## Design
 ### Wireframes 
 For creation of the wireframes, I have used draw.io which has provided clear templates for the website initial design: 
+
 ### Home Page 
 ![home-page](https://github.com/meganw22/Project1/assets/141934888/8c9d1866-b237-4317-9653-9bdcc4d729b1)
 
@@ -38,23 +41,80 @@ For creation of the wireframes, I have used draw.io which has provided clear tem
 ![colour scheme](https://github.com/meganw22/Project1/assets/141934888/e68ea61c-e290-4cb3-8a6e-9bb085d04548)
 
 ### Typography
+I have used Montserrat Font consistently throughout the Ocean Café website. This font is easily readable and comprehensible which is more likely to create a positive experience for the user when reading.
+Using various sizes and styles of this font, creates a sense of hierarchy and structure which can assist the user to understand the flow of the website easily and supports them to progress further within the webpage.
+![font-styles-sizes](https://github.com/meganw22/Project1/assets/141934888/17ed1a3e-9b2a-4ba4-bd8b-11016ba61472)
 
 ### 
 
 ## Features
-### General - Nav bar/footer
-###
+### Interface Design
+Interface design is beneficial for the website user to understand the website content and fill the viewer with good expectations and excitement to want to dine at the cafe. 
+
+#### Main page
+
+
+#### Nav Bar
+I created a simple style nav bar using HTML and CSS and set the styles keep the header and nav bar fixed to the top of the page.
+I opted to display the 'Ocean Café' name on every page in the same font size for consistency. Any devices above 768px have fully displayed text items:
+
+![nav-bar768px](https://github.com/meganw22/Project1/assets/141934888/a21dcf22-eb57-43d3-b3ac-34632f09d3b5)
+
+The Nav bar options are responsive for mobile devices to include a toggle button to display the options in a column for optimised user experience. 
+
+![nav-bar-toggled](https://github.com/meganw22/Project1/assets/141934888/02b45096-04d1-4a40-bade-363a81ebe053)
+
+#### Footer
+The footer has been created to mirror the styles used on the header and nav bar. This is for further consistency and matches the chosen colour scheme, which creates a more aesthetic appeal and makes the content more engaging. It has a simplified content structure of only social networking icons, these allow the user to open the Ocean Café website up in a new tab when clicked.
+
+![footer-bar](https://github.com/meganw22/Project1/assets/141934888/d85ceacf-527b-4ada-b3ea-0a1da731c9cb)
+
+### Responsive
+The website has been made responsive of styles from mobile devices to screen widths of 1440px. Having a successfully responsive website allows maximum positive user experiences when using this website and mitigates any struggle to view the website content.
+
+![responsive-proof](https://github.com/meganw22/Project1/assets/141934888/b33040c2-3e42-4247-9657-1ceb9f97f91f)
 
 ## Testing
 
 ### HTML Validator
+W3C Markup Validation Service was used to ensure no errors were found in the HTML of the website - No errors displayed
 ![HTML-validator](https://github.com/meganw22/Project1/assets/141934888/87a3bffb-dc16-4a81-9108-a3bf0a311ed2)
 
 ### CSS Validator
+W3C CSS Validation Service was used to ensure that all CSS code in the website is correct - No errors are displayed
 ![CSS-validator](https://github.com/meganw22/Project1/assets/141934888/67d31a92-1176-4031-80d5-5e21c9a06e5d)
 
 ### Lighthouse
 
+![performance](https://github.com/meganw22/Project1/assets/141934888/4bab9fbf-45fd-4292-9836-3c8713a1f68d)
+
+### Full Link Testing
+|Element| Required Outcome  | Test Steps | Actual Outcome | Result|
+|-------| ----------- | --- |--- | ---|
+| **Nav bar** |
+| Ocean Café Link | when Ocean Café text is clicked the page displayed will be the Home Page | Click the Ocean Café text in the nav bar | Home Page is displayed | Pass |
+| Home Link | when Home is clicked the page displayed will be the Home Page | Click the Home link in the nav bar | Home Page is displayed | Pass |
+| Menu Link | when Menu is clicked the page displayed will be the Menu Page | Click the Menu link in the nav bar | Menu Page is displayed | Pass |
+| Contact Us Link | when Contact Us is clicked the page displayed will be the Contact Us Page | Click the Contact Us link in the nav bar | Contact Us page is displayed | Pass |
+|-------| ----------- | --- |--- | ---|
+| **Footer - Social Networks** |
+| Facebook icon | When the icon is selected, a new tab will open and display the Facebook website | Click the Facebook icon in the footer | Facebook opens in a new tab | Pass |
+| Instagram icon | When the icon is selected, a new tab will open and display the Instagram website | Click the Instagram icon in the footer | Instagram opens in a new tab | Pass |
+| YouTube icon | When the icon is selected, a new tab will open and display the YouTube website | Click the YouTube icon in the footer | YouTube opens in a new tab | Pass |
+| Twitter icon | When the icon is selected, a new tab will open and display the Twitter website | Click the Twitter icon in the footer | Twitter opens in a new tab | Pass |
+|-------| ----------- | --- |--- | ---|
+| **Booking form** |
+| First name | Content is required | Leave the text field blank and Submit the form | A pop-up will display asking the user to complete the section | Pass |
+| Last name | Content is required | Leave the text field blank and Submit the form | A pop-up will display asking the user to complete the section | Pass |
+| Email Address | Content is required | Leave the text field blank and Submit the form | A pop-up will display asking the user to complete the section | Pass |
+| Email Format type | Specific @ content is required | type only alphanumeric text into the text field and Submit the form | A pop-up will display warning the user no @ is used | Pass |
+| Submit | Clicking Submit will direct the user to successful form completion screen | Fill in all required form content correctly and press submit | User is directed to successful form completion screen | Pass |
+
+## Bug Fixes
+During the creation of the website, class and id selectors were created during the initial flow of coding. I found that as I progressed with my code and built more intricate code that flow broke up. This resulted with splitting up and specifying more particular code to match the styles required on each page. For example, before; I used "class=img-wrapper" to wrap all images to the right of the body of text in each section. As I progressed, I found on occasion I was renaming id selectors as class selectors in CSS and not renaming the selectors in the html code. This resulted in large errors in responsivity and incorrectly displayed webpages. 
+
+![no-css](https://github.com/meganw22/Project1/assets/141934888/ebd8a4cf-7750-4b51-b8ad-5a8efa356a37)
+![no-css-image](https://github.com/meganw22/Project1/assets/141934888/6f668da8-f0d0-415e-afde-a4cd9a4c0d94)
 
 ## Deployment
 The cloud based server used to create the Ocean Café website was GitHub. The following steps were completed in order to deploy the project to a hosting platform:
@@ -66,6 +126,8 @@ The cloud based server used to create the Ocean Café website was GitHub. The fo
 
 ## Credits
 - Draw.io for creation of wireframes (http://draw.io/ )
+- Montserrat font (https://fonts.google.com/specimen/Montserrat?preview.text=Ocean%20Cafe&preview.text_type=custom&query=mo)
+
   For testing procedures:
 - HTML Validator  (https://validator.w3.org/)
 - CSS Valdator
