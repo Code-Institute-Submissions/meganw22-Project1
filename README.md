@@ -112,6 +112,9 @@ As displayed, all are above a score of 90.
 ![menu-performance](https://github.com/meganw22/Project1/assets/141934888/ba82b1ca-4326-4c00-94e4-e30b38f75c7c)
 ![contact-performance](https://github.com/meganw22/Project1/assets/141934888/e38ff0e3-c516-456b-a4b3-3dca74eccc17)
 
+#### Loading Speed Concerns
+During the Lighthouse checks, Performance came up with lower scores than required. This was due to the image file sources used in the project. The image files were either jpg or png files and I found one image to be up to 1.1MB. This is a huge file for the website to process quickly and was a significant drain on the performance score. I swapped out all the jpg/png files for webp using the PaLM APi image editor extension in gitpod. After this, re-ran the lighthouse extension and the results were much more acceptable and more than a score of 90 across the board.
+
 ### Full Link Testing
 Testing of links performed on Google Chrome
 
@@ -154,6 +157,7 @@ The cloud based server used to create the Ocean Café website was GitHub. The fo
 - Draw.io for creation of wireframes (http://draw.io/ )
 - Montserrat font (https://fonts.google.com/specimen/Montserrat?preview.text=Ocean%20Cafe&preview.text_type=custom&query=mo)
 - Pexels Image sources (https://www.pexels.com/)
+- PaLM APi image editor extension in GitPod for conversion of jpg/png to webp files
   
   For testing procedures:
 - HTML Validator  (https://validator.w3.org/)
