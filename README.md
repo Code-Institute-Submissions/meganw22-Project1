@@ -38,6 +38,7 @@ For creation of the wireframes, I have used draw.io which has provided clear tem
 ![contact-page](https://github.com/meganw22/Project1/assets/141934888/031d1d20-aba1-4467-98ad-26e315628ea9)
 
 ### Colour Scheme
+The colour scheme is created to match the theme of a beach and ocean, the colours are clear and provide good accessibility suited contrasts when used together
 ![colour scheme](https://github.com/meganw22/Project1/assets/141934888/e68ea61c-e290-4cb3-8a6e-9bb085d04548)
 
 ### Typography
@@ -45,14 +46,9 @@ I have used Montserrat Font consistently throughout the Ocean Café website. Thi
 Using various sizes and styles of this font, creates a sense of hierarchy and structure which can assist the user to understand the flow of the website easily and supports them to progress further within the webpage.
 ![font-styles-sizes](https://github.com/meganw22/Project1/assets/141934888/17ed1a3e-9b2a-4ba4-bd8b-11016ba61472)
 
-### 
-
 ## Features
 ### Interface Design
 Interface design is beneficial for the website user to understand the website content and fill the viewer with good expectations and excitement to want to dine at the cafe. 
-
-#### Main page
-
 
 #### Nav Bar
 I created a simple style nav bar using HTML and CSS and set the styles keep the header and nav bar fixed to the top of the page.
@@ -74,6 +70,13 @@ The website has been made responsive of styles from mobile devices to screen wid
 
 ![responsive-proof](https://github.com/meganw22/Project1/assets/141934888/b33040c2-3e42-4247-9657-1ceb9f97f91f)
 
+#### Home Page
+The home page contains a section called 'Meet Us', in which we tell the viewer a little information about ourselves with a picture to make the website more personable. Also included is a brief bit of information on the type of food/drink served at the cafe and who the cafe can accommodate.
+The next section is clearly defined as a new section because of the change in background colour.
+The gallery is displayed responsively, all the images displayed are either taken by myself or are sourced from Pexels
+
+![home-page](https://github.com/meganw22/Project1/assets/141934888/d86fdaea-fe96-4352-be1f-0e1b5dfebc62)
+
 ## Testing
 
 ### HTML Validator
@@ -85,10 +88,14 @@ W3C CSS Validation Service was used to ensure that all CSS code in the website i
 ![CSS-validator](https://github.com/meganw22/Project1/assets/141934888/67d31a92-1176-4031-80d5-5e21c9a06e5d)
 
 ### Lighthouse
+Lighthouse was used to check the website Performance, Accessibility, Best Practices and SEO
+As displayed, all are above a score of 90.
+![performance](https://github.com/meganw22/Project1/assets/141934888/f819e145-9775-4995-9bb5-6cf013224252)
 
-![performance](https://github.com/meganw22/Project1/assets/141934888/4bab9fbf-45fd-4292-9836-3c8713a1f68d)
 
 ### Full Link Testing
+Testing of links performed on Google Chrome
+
 |Element| Required Outcome  | Test Steps | Actual Outcome | Result|
 |-------| ----------- | --- |--- | ---|
 | **Nav bar** |
@@ -127,7 +134,7 @@ The cloud based server used to create the Ocean Café website was GitHub. The fo
 ## Credits
 - Draw.io for creation of wireframes (http://draw.io/ )
 - Montserrat font (https://fonts.google.com/specimen/Montserrat?preview.text=Ocean%20Cafe&preview.text_type=custom&query=mo)
-
+- Pexels Image sources (https://www.pexels.com/)
   For testing procedures:
 - HTML Validator  (https://validator.w3.org/)
 - CSS Valdator
