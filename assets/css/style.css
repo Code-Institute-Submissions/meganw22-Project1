@@ -128,15 +128,17 @@ main {
   letter-spacing: 3px;
   bottom: 20%;
   right: 20%;
+  text-transform: none;
+  text-align: left;
 }
 
-.main-header .menu-subtext {
+.main-header > h2 {
   width: 100%;
   position: absolute;
   background-color: rgba(255, 255, 255, 0.75);
   padding: 5px;
   text-align: center;
-  font-size: 1.25em;
+  font-size: 1em;
   font-style: italic;
   font-weight: 700;
   z-index: 50;
@@ -415,8 +417,14 @@ input[type="radio"] {
   justify-content: center;
 }
 
+fieldset {
+  padding: 2.5%;
+  border: none;
+  text-align: left;
+}
+
 #radio div {
-  width: 100%;
+  width: 70%;
   display: flex;
   justify-content: space-evenly;
 }
@@ -437,7 +445,8 @@ input[type="submit"] {
   color: #fff;
   border: none;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 600;
   cursor: pointer;
   border-radius: 3px;
 }
@@ -522,6 +531,7 @@ footer {
     left: 0;
     padding: 1rem;
     font-size: 18px;
+    text-transform: none;
   }
 
   #menu-head-text {
@@ -644,7 +654,7 @@ footer {
     }
 
     .head-subtext {
-      font-size: 2em;
+      font-size: 2.5em;
     }
 
     .meet-us-wrapper {

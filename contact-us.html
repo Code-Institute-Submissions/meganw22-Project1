@@ -9,7 +9,7 @@
   <title>Ocean Café, Hertford</title>
 
   <!--Stylesheet-->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
 <body>
@@ -37,9 +37,9 @@
   <main>
     <div class="main-header">
       <img src="./assets/gallery/aerial-sea-view.jpg" alt="birds eye view of a beach">
-      <p class="menu-subtext" id="hear-from-you">
+      <h2 class="menu-subtext" id="hear-from-you">
         We'd love to hear from you
-      </p>
+      </h2>
     </div>
     <!--Contact Us Header-->
     <div id="get-intouch">
@@ -99,20 +99,22 @@
 
             <!--Radio buttons-->
             <div id="radio">
-              <p>Booking a bottomless brunch?</p>
-              <div>
-                <input type="radio" id="yes" name="radio" value="yes">
-                <label for="yes">Yes</label>
-                <input type="radio" id="no" name="radio" value="no">
-                <label for="no">No</label>
-              </div>
+              <fieldset>
+                <legend>Booking a bottomless brunch?</legend>
+                <div>
+                  <input type="radio" id="yes" name="radio" value="yes">
+                  <label for="yes">Yes</label>
+                  <input type="radio" id="no" name="radio" value="no">
+                  <label for="no">No</label>
+                </div>
+              </fieldset>
             </div>
-            <br>
             <!--Request Box-->
             <div id="request-box">
               <label for="requests" class="block-label">Requests:</label>
               <textarea id="requests" rows="4" cols="30" name="requests"></textarea>
             </div>
+            <!--Submit Button-->
             <input type="submit" value="Submit">
             <br>
           </form>
